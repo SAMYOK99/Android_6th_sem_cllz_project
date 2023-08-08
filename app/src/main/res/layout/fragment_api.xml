@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Api">
+
+
+    <Button
+        android:textColor="#fff"
+        android:background="@color/qu_grey_600"
+        android:text="GET REQUEST DATA"
+        android:id="@+id/get_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:text="Response : "
+        android:id="@+id/get_response_data"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" />
+
+    <View
+        android:id="@+id/border"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="20dp"
+        android:background="#868686" />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:textColor="#fff"
+        android:background="@color/qu_grey_600"
+        android:text="SEND POST DATA"
+        android:id="@+id/post_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" />
+
+    <TextView
+        android:layout_marginTop="150dp"
+        android:text="Response : "
+        android:id="@+id/post_response_data"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" />
+
+</FrameLayout>
